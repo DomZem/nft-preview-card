@@ -1,8 +1,10 @@
+import NftCard from './components/organisms/NftCard/NftCard';
+
 const App = () => {
 	return (
-		<div className='flex h-screen items-center justify-center'>
-			<h1 className='text-3xl text-cyan'>Hello there!</h1>
-		</div>
+		<main className='flex h-screen items-center justify-center bg-mainBg p-2.5 text-softBlue'>
+			<NftCard />
+		</main>
 	);
 };
 
